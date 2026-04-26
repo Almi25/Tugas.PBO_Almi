@@ -1,15 +1,15 @@
-public class Toshiba implements Laptop {
+public class MacBook implements Laptop {
     boolean isOn = false;
     int volume = 50;
 
     public void turnOn() {
         isOn = true;
-        System.out.println("Toshiba ON");
+        System.out.println("MacBook ON");
     }
 
     public void turnOff() {
         isOn = false;
-        System.out.println("Toshiba OFF");
+        System.out.println("MacBook OFF");
     }
 
     public void volumeUp() {
